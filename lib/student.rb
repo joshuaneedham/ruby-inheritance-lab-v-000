@@ -10,6 +10,4 @@ class Student < User
     @knowledge << KNOWLEDGE
   end
 
-  end
-
 end
