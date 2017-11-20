@@ -7,7 +7,7 @@ class Student < User
 
   def learn(knowledge)
     binding.pry
-    @knowledge << teacher.teach
+    @knowledge << knowledge
   end
 
 end
