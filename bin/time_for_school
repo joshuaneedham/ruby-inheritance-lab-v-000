@@ -24,4 +24,4 @@ josh.learn(some_knowledge)
 
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
-puts "Joshua just learned this important knowledge: '#{josh.knowledge.each {|lesson| puts lesson}}' from Avi"
+puts "Joshua just learned this important knowledge: '#{josh.knowledge.each {|lesson| puts "#{lesson}"}}' from Avi"
